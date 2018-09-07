@@ -20,5 +20,14 @@ namespace Verkiezingen
 
         }
 
+        /**
+         * Verschillende willekeurige stem mogelijkheden:
+         * 1) BlancoOfOngeldig
+         * 2) Geldig (met x lijsten)
+         *  2.1) Lijststem voor 1 van de x lijsten
+         *  2.2) Naamstem(men) voor 1 van de x lijsten (met y kandidaten voor de betreffende lijst)
+         *      2.2.1) [1,y] naamstemmen
+         **/
+
     }
 }

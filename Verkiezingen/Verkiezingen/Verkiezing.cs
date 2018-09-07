@@ -13,6 +13,7 @@ namespace Verkiezingen
         public int TotaalAantalBiljetten => AantalGeldigeBiljetten + AantalBlancoEnOngeldigeBiljetten;
 
         public List<Lijst> Lijsten { get; set; }
+        public int AantalLijsten => this.Lijsten.Count;
 
         public Verkiezing(IEnumerable<Lijst> lijsten)
         {

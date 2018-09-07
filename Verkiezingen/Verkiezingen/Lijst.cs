@@ -12,8 +12,8 @@ namespace Verkiezingen
         public int Nummer { get; set; }
         public int Verkiesbaarheidscijfer { get; set; }
         public int AantalZetels { get; set; }
-        public int AantalCat1Biljetten { get; set; }
-        public int AantalCat2Biljetten { get; set; }
+        public int AantalLijstStemmen { get; set; }
+        public int AantalNaamEnNaamLijstStemmen { get; set; }
         public int AantalOverTeDragenStemmen { get; set; }
         public int Stemcijfer { get; set; }
 
